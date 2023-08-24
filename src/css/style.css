@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container-1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 59vw;
+    height: 100vh;
+    position: relative;
+    background-color: blueviolet;
+}
+
+.container-1 img{
+    width: 100%;
+}
+.container-1 .descricao{
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 518px;
+    left: 50px;
+    gap: 8px;
+    font-size: 23px;
+    background-color: rgb(245, 242, 220);
+    width: 599px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.container-1 .descricao h2{
+    font-weight: bold;
+    color: rgb(2, 83, 66);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(1, 116, 91);
+    
+}
+
+.container-1 .descricao p{
+    color: rgb(4, 105, 43);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(2, 99, 86);
+    font-size: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(20, 34, 37);
+    width: 41vw;
+}
+
+.container-2 .form-login{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-top: 95px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    gap: 18px;
+    border-bottom: antiquewhite 1px solid;
+}
+
+.form-login h2{
+    color: antiquewhite;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.form-login .input-email{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    background-color: rgb(20, 34, 37);
+    border: rgb(184, 180, 166) 1px solid;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.form-login .input-password{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    background-color: rgb(20, 34, 37);
+    border: rgb(184, 180, 166) 1px solid;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+.form-login .check{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 7px;
+}
+
+.input-check{
+    background-color: rgb(2, 83, 66);
+}
+
+.check .label-check{
+    color: antiquewhite;
+    font-size: 17x;
+}
+
+.form-login .input-submit{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100px;
+    margin-top: 18px;
+    background-color: rgb(46, 206, 171);
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-submit:hover{
+    background-color: antiquewhite;
+    color: rgb(20, 34, 37);
+    cursor: pointer;
+}
+
+.form-login a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.form-login .login-alternativo{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 13px;
+    margin-top: 17px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.container-2 .rodape{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 58px;
+    margin-right: 58px;
+    margin-top: 15px;
+}
+
+.rodape p{
+    color: antiquewhite;
+}
+
+.rodape a{
+    text-decoration: none;
+    background-color: rgb(46, 206, 171);
+    padding: 12px 9px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.rodape a:hover{
+    background-color: antiquewhite;
+    color: rgb(20, 34, 37);
+}
