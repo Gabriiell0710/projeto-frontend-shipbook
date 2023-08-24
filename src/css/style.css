@@ -26,7 +26,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     position: absolute;
-    top: 518px;
+    top: 475px;
     left: 50px;
     gap: 8px;
     font-size: 23px;
@@ -152,7 +152,8 @@ body{
     justify-content: space-between;
     margin-left: 58px;
     margin-right: 58px;
-    margin-top: 15px;
+    margin-top: 1px;
+   
 }
 
 .rodape p{
